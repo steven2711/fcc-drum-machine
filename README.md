@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Drum Machine
+
+This project is par of FreeCodecamp's Frontend Developer Certification. Simply clone this repository and install the dependecies to start making music!
+
+## Clone
+
+Run this in the directory you would like this project.
+
+```
+git clone https://github.com/steven2711/fcc-drum-machine.git
+```
+
+## Install dependencies
+
+```
+npm install
+```
 
 ## Available Scripts
 
