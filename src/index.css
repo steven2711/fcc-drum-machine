@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pad {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 2em;
+  text-align: center;
+  line-height: 90px;
+  justify-self: center;
+  background-color: blueviolet;
+  font-family: "Press Start 2P", cursive;
+}
+
+.drum-pad:hover {
+  transform: scale(1.1);
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+#display {
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  background-color: black;
+  margin-top: 15px;
+}
+
+#title {
+  color: rgb(110, 6, 247);
+  font-family: "Press Start 2P", cursive;
+}
